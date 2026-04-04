@@ -1,0 +1,15 @@
+# Python
+
+--pycache--/
+*.py[code]
+venv/
+.env
+
+# Data
+data/
+*.csv
+*.zip
+*.sas7bdat
+
+# Jupyter Notebooks
+.ipynb_checkpoints
