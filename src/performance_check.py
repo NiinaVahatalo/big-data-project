@@ -37,6 +37,6 @@ mongo_result = df_mongo.collect()
 end_mongo = time.time()
 mongo_time = end_mongo - start_mongo
 
-print(f"\n--- SUORITUSKYKYVERTAILU ---")
-print(f"Spark SQL suoritusaika: {spark_time:.2f} sekuntia")
-print(f"MongoDB Aggregation suoritusaika: {mongo_time:.2f} sekuntia")
+print(f"\n--- PERFORMANCE COMPARISON ---")
+print(f"Spark SQL execution time: {spark_time:.2f} seconds")
+print(f"MongoDB Aggregation execution time: {mongo_time:.2f} seconds")
