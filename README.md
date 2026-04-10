@@ -2,6 +2,8 @@ PISA ICT Analysis
 
 Course work
 
+Code has been generated with the help of Gemini 3 and VSCode's agentic AI.
+
 This project analyzes the impact of ICT usage on PISA mathematics and reading scores in years 2012 and 2022. It utilizes Apache Spark for distributed data processing and MongoDB as a document store to handle over 1 million data points from global OECD datasets.
 
 Tech:
